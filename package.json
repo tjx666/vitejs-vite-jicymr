@@ -4,15 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "build:rollup": "rollup -c"
   },
   "stackblitz": {
-    "startCommand": "build"
+    "startCommand": "npm run build"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.0.1",
+    "rollup": "^3.19.1",
     "vite": "4.1.4"
   }
 }
